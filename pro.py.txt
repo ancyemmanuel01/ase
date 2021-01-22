@@ -1,0 +1,40 @@
+C=int(input("Enter the current year :"))
+F=int(input("Enter the final year :"))
+for C in range (C,F+1):
+    if C%4==0 and C%100!=0:
+        print (C,"is a leap year ")
+
+
+word=input("Enter the word :")
+letters=list(word)
+print (letters)
+
+for i in 'a','e','i','o','u':
+    if i in letters:
+        print (i)
+
+list=[]
+n=int(input('enter the end point :'))
+print("enter the numbers :")
+for i in range(0,n):
+    no=int(input())
+    list.append(no)
+for i in list:
+    a=i*i
+    print("the squere of",i,"=",a)
+
+
+list=[]
+n=int(input("enter the endpoint :"))
+print ("-------enter the numbers------")
+for i in range(0,n):
+    no=int(input())
+    list.append(no)
+print ("the numbers are  ",list)
+print ("the positive numbers are")
+
+for i in list:
+    if 0<i:
+        print (i)
+
+
